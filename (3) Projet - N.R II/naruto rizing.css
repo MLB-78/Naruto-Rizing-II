@@ -1,0 +1,754 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body{
+
+    background-color: rgb(255, 131, 23);
+
+}
+
+/* Partie navbar */
+
+header{
+    
+    background-color: black;
+    height: 120px;
+    box-shadow: black 1px 1px 3px ;
+    width: 100%;
+    
+    
+}
+
+nav{
+    
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-titre{
+
+    display: flex;
+    align-items: center;
+}
+
+.titre{
+    
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+.rubrique{
+    
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 10px;
+    
+}
+
+.rubrique :hover{
+    
+    color: rgb(255, 131, 23);
+    transition: 0.3s;
+    
+}
+
+li{
+    
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+li a{
+    
+    color: whitesmoke;
+    
+}
+
+.toogle{
+    
+    display: none;
+    
+}
+
+/* Partie texte du milieur + bouton */
+
+.champ2{
+
+    margin: auto;
+    background-color: rgb(234, 232, 232);
+    width: 40%;
+    
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+
+}
+
+
+.texteMiddle{
+    
+    margin-left: 20px;
+    height: 120px;
+    padding: 20px;
+      
+}
+
+
+h2{
+
+    font-size: 30px;
+
+}
+
+.lesBoutons{
+  
+    margin-left: 20px;
+    height: 100px;
+   
+}
+
+button[src="btn1"]{
+
+    max-height: 40px;
+    min-height: 40px;
+    height: 40px;
+
+    width: 150px;
+    
+    border-radius: 5px;
+    border: none;
+
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+button[src="btn1"]:hover{
+
+    transform: scale(1.03);
+
+}
+
+button[src="btn2"]{
+
+    max-height: 40px;
+    min-height: 40px;
+    height: 40px;
+
+    width: 150px;
+    
+
+    border-radius: 5px;
+
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+button[src="btn2"]:hover{
+
+    transform: scale(1.03);
+    
+}
+
+/* touche pas comportement grave chelou */
+.questionnaire.awd {
+
+    display: block;
+
+}
+
+
+/* Questionnaire 1*/
+
+.questionnaire{
+
+    display: none;
+
+}
+
+.compteur{
+
+    
+    margin: auto;
+    width: 10%;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.q{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    width: 40%;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+}
+
+.q-texte{
+
+    text-align: center;
+
+}
+
+.q_proposition{
+
+    
+    display: flex;
+    margin: auto;
+    width: 20%;
+    min-width: 330px;
+
+}
+
+.q_choix{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    cursor: pointer;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+    min-width: 60px;
+
+}
+
+.q_r1{
+
+    text-align: center;
+
+}
+
+.q_r2{
+
+    text-align: center;
+
+}
+
+.q_r3{
+
+    text-align: center;
+
+}
+
+
+/* Questionnaire 2 */
+
+.questionnaire2{
+
+    display: none;
+
+}
+
+.q2{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    width: 40%;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+    
+
+}
+
+.q2-texte{
+
+    text-align: center;
+
+}
+
+.q2_proposition{
+
+    display: flex;
+    margin: auto;
+    width: 20%;
+
+}
+
+.q2_choix{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    cursor: pointer;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+    min-width: 60px;
+
+}
+
+.q2_r1{
+
+    text-align: center;
+
+}
+
+.q2_r2{
+
+    text-align: center;
+
+}
+
+/* Questionnaire 3*/
+
+.questionnaire3{
+
+    display: none;
+
+}
+
+.q3{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    width: 60%;
+    max-width: 400px;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+}
+
+.q3-texte{
+
+    text-align: center;
+
+}
+
+.q3_proposition{
+
+    
+    display: flex;
+    margin: auto;
+    width: 20%;
+    min-width: 330px;
+
+}
+
+.q3_choix{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    cursor: pointer;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+    min-width: 60px;
+
+}
+
+.q3_r1{
+
+    text-align: center;
+
+}
+
+.q3_r2{
+
+    text-align: center;
+
+}
+
+.q3_r3{
+
+    text-align: center;
+
+}
+
+/* Questionnaire 4 */
+
+.questionnaire4{
+
+    display: none;
+
+}
+
+.q4{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    width: 70%;
+    max-width: 500px;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+}
+
+.q4-texte{
+
+    text-align: center;
+
+}
+
+.q4_proposition{
+
+    
+    display: flex;
+    margin: auto;
+    width: 20%;
+    min-width: 349px;
+
+}
+
+.q4_choix{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    cursor: pointer;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+    min-width: 60px;
+
+}
+
+.q4_r1{
+
+    text-align: center;
+
+}
+
+.q4_r2{
+
+    text-align: center;
+
+}
+
+.q4_r3{
+
+    text-align: center;
+
+}
+
+.q4_r4{
+
+    text-align: center;
+
+}
+
+/* Questionnaire 5 */
+
+
+.questionnaire5{
+
+    display: none;
+
+}
+
+.q5{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    width: 40%;
+    min-width: 300px;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+}
+
+.q5-texte{
+
+    text-align: center;
+
+}
+
+.q5_proposition{
+
+    display: flex;
+    margin: auto;
+    width: 20%;
+
+}
+
+.q5_choix{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    cursor: pointer;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+
+    width: 60%;
+    min-width: 125px;
+
+}
+
+.q5_r1{
+
+    text-align: center;
+
+}
+
+.q5_r2{
+
+    text-align: center;
+
+}
+
+/* Les Réponses final  */
+
+.responses{
+
+    background-color: rgb(234, 232, 232);
+    margin: auto;
+    box-shadow: rgb(53, 53, 53) 3px 3px 8px;
+    border-radius: 12px;
+    padding: 8px;
+    width: 40%;
+    min-width: 350px;
+    height: 175px;
+
+    display: none;
+
+
+}
+
+.responses-texte{
+
+    text-align: center;
+
+}
+
+.compta{
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+/* IMPORTATION JS : Réponse en couleurs */
+
+.final{
+
+    display: block;
+
+}
+
+.finGood{
+
+    transition: 0.45s;
+    background-color: rgb(12, 222, 12);
+    color: azure;
+    transform: scale(1.1);
+
+
+}
+
+.finFalse{
+
+    transition: 0.45s;
+    background-color: red;
+    color: azure;
+    transform: scale(1.1);
+
+}
+
+
+.finGood2{
+
+    color: rgb(0, 181, 0);
+
+}
+
+.finFalse2{
+
+    color: red;
+
+}
+
+
+
+
+
+
+.footloz{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 24%;
+    min-width: 220px;
+
+}
+
+/* Responsive */
+@media all and (max-width: 800px){
+
+    li{
+
+        font-size: 15px;
+
+    }
+
+    .toogle{
+
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+
+    }
+
+    .logo{
+
+        position: relative;
+        z-index: 20;
+
+    }
+
+    /* Quand on arrive à 800px le bouton ouvrir devra être afficher */
+
+    img[src="ouvrir.png"]{
+
+        display: block;
+
+    }
+
+    /* Tandis que le fermer devra être caché */
+
+    img[src="fermer.png"]{
+
+        display: none;
+
+    }
+
+    /* Si la classe menu est ouvert ALORS on va cacher le bouton ouvrir*/
+
+    .open img[src="ouvrir.png"]{
+
+        display : none;
+
+    }
+
+    /* Et puisque le menu est ouvert il faudra afficher le fermer */
+
+    .open img[src="fermer.png"]{
+
+        display: block;
+
+    }
+
+
+    .rubrique{
+
+        background-color: black;
+
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        
+        justify-content: space-around;
+        flex-direction: column;
+
+        height: 48vh;
+        padding: 9rem;
+        width: 50%;
+
+        /* 100% sa arrive par la droite tandis que -100% par la gauche */
+        transform: translateX(-100%);
+
+    }
+
+    .open .rubrique{
+
+        transform: translateX(0);
+        transition: 1s;
+
+    }
+
+    /* Questionnaire */
+   
+    .q2{
+
+        min-width: 300px;
+
+    }
+
+    .q2_proposition{
+
+        width: 45%;
+    
+    }
+
+    .q{
+
+        min-width: 300px;
+
+    }
+
+    
+    
+}
+
+
+
+/* Responsive 2 */
+
+@media all and (max-width: 1000px){
+    
+    .q5_proposition{
+    
+        width: 45%;
+        min-width: 300px;
+      
+    
+    }
+    .texteMiddle{
+  
+        height: 154px;
+    
+    }
+
+    button[src="btn1"]{
+
+        max-width: 100px;
+
+    }
+
+    button[src="btn2"]{
+
+        width: 140px;
+        
+    }
+
+    .champ2{
+
+        min-width: 320px;
+
+    }
+
+    
+
+}
+

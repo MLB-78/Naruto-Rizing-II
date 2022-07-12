@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.95">
+    <link rel="stylesheet" href="naruto rizing.css">
+    <link rel="shortcut icon" href="logoNaruto.png" >
+    <title>Naruto Rizing II</title>
+
+</head>
+
+    <!-- La partie navbar -->
+<body>
+
+    <header>
+        <nav>
+
+            <div class="logo-titre">
+
+                <div class="logo">
+
+                    <img src="logoNaruto.png" width="60px">
+
+                </div>
+
+                &nbsp;&nbsp;
+
+                <div class="titre">
+
+                    <T>Naruto Rizing II</T> 
+
+                </div>
+               
+              
+
+            </div>
+
+            
+            &nbsp;&nbsp;
+            <div class="rubrique">
+
+                <li><a href="mailto:maximebosse1@outlook.fr">Contact</a></li>
+                <li><a href="">Production</a></li>
+                <li><a href="">Le quizz</a></li>
+                <li><a href="">Jouez</a></li>
+
+            </div>
+
+            <div class="toogle">
+
+                <img src="ouvrir.png">
+                <img src="fermer.png">
+
+            </div>
+
+        </nav>
+    </header>
+
+    <br><br><br>
+
+    <!-- La partie du texte du milieu -->
+   <div class="champ2">
+
+       <div class="texteMiddle">
+           
+           <h2>
+
+               QUIZZ NARUTO RIZING II 
+               
+            </h2>
+            
+            <br>
+            
+            <p>
+            
+                Tu veux savoir si tu es à jour sur tes connaissances dans Naruto. <br>
+                Ce test est sûrement fait pour toi ! 
+                
+            </p>
+            
+        </div>
+        
+        <div class="lesBoutons">
+            
+            <button src="btn1"> À propos</button>
+            &nbsp;
+            <button src = "btn2" id="commencez"> Commencez le quizz</button>
+            
+        </div>
+        
+        
+    </div>
+    
+    <!-- La Partie Quizz -->
+
+    <br><br>
+    
+
+    <!-- Question 1 -->
+
+    <div class="questionnaire">
+
+        <div class="compteur">
+
+            1/5
+
+        </div>
+
+        <br>
+
+        <div class="q">
+            
+            <div class="q-texte">
+                
+                Qui est le rival de Konohamaru Sarutobi ? <br>   
+                
+            </div>
+            
+        </div>
+        
+        <br>
+  
+        <div class="q_proposition">
+            
+            <div class="q_choix" id="notbon" onclick="clicked_notbon1()">
+                
+                <div class="q_r1"> Hiruzen </div>
+                
+            </div>
+
+            &nbsp;&nbsp;&nbsp;
+
+            <div class="q_choix" id="bon" onclick="clicked_bon1()">
+                
+                <div class="q_r2"> Naruto </div>
+                
+            </div>
+            
+            
+            &nbsp;&nbsp;&nbsp;
+            
+            <div class="q_choix" id="notbon_1.2" onclick="clicked_notbon1_2()">
+                
+                <div class="q_r3"> Asuma  </div>
+                
+            </div>
+        </div>
+        
+    </div>
+   
+ 
+    <!-- Question 2 -->
+
+    <div class="questionnaire2">
+
+        <div class="compteur">
+
+            2/5
+            
+        </div>
+
+        <br>
+        
+        <div class="q2">
+            
+            <div class="q2-texte">
+                
+                Qui est le plus rapide  ? <br>   
+                
+            </div>
+            
+        </div>
+        
+        <br>
+  
+        <div class="q2_proposition">
+            
+            <div class="q2_choix" id="notbon2" onclick="clicked_notbon2()">
+                
+                <div class="q2_r1"> Gaï </div>
+                
+            </div>
+
+            &nbsp;&nbsp;&nbsp;
+            
+            <div class="q2_choix" id="bon2" onclick="clicked_bon2()">
+                
+                <div class="q2_r2"> Minato </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <!-- Question 3 -->
+
+    <div class="questionnaire3">
+
+        <div class="compteur">
+
+            3/5
+            
+        </div>
+
+        <br>
+        
+        <div class="q3">
+            
+            <div class="q3-texte">
+                
+                Qui a réelement tué rin ? <br>   
+                
+            </div>
+            
+        </div>
+        
+        <br>
+  
+        <div class="q3_proposition">
+            
+            <div class="q3_choix" id="bon3" onclick="clicked_bon3()">
+                
+                <div class="q3_r1"> Les ninjas de Kiri </div>
+                
+            </div>
+
+            &nbsp;&nbsp;&nbsp;
+
+            <div class="q3_choix" id="notbon3" onclick="clicked_notbon3()">
+                
+                <div class="q3_r2"> Kakashi </div>
+                
+            </div>
+            
+            
+            &nbsp;&nbsp;&nbsp;
+            
+            <div class="q3_choix" id="notbon_3.2" onclick="clicked_notbon3_2()">
+                
+                <div class="q3_r3"> Zetsu  </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Question 4 -->
+
+    <div class="questionnaire4">
+
+        <div class="compteur">
+
+            4/5
+            
+        </div>
+
+        <br>
+
+        <div class="q4">
+            
+            <div class="q4-texte">
+                
+                Quel est l'utilisateur du sharingan possédant Tsukuyomi ? <br>   
+                
+            </div>
+            
+        </div>
+        
+        <br>
+  
+        <div class="q4_proposition">
+            
+            <div class="q4_choix" id="notbon4" onclick="clicked_notbon4()">
+                
+                <div class="q4_r1"> Sasuke </div>
+                
+            </div>
+
+            &nbsp;&nbsp;&nbsp;
+
+            <div class="q4_choix" id="notbon_4.2" onclick="clicked_notbon4_2()">
+                
+                <div class="q4_r2"> Obito </div>
+                
+            </div>
+            
+            
+            &nbsp;&nbsp;&nbsp;
+            
+            <div class="q4_choix" id="bon4" onclick="clicked_bon4()">
+                
+                <div class="q4_r3"> Itachi </div>
+                
+            </div>
+
+            &nbsp;&nbsp;&nbsp;
+            
+            <div class="q4_choix" id="notbon_4.3" onclick="clicked_notbon4_3()">
+                
+                <div class="q4_r4"> Shisui </div>
+                
+            </div>
+
+        </div>
+        
+    </div>
+
+    <!-- Question 5 -->
+
+    <div class="questionnaire5">
+
+        <div class="compteur">
+
+            5/5
+            
+        </div>
+
+        <br>
+
+        <div class="q5">
+            
+            <div class="q5-texte">
+                
+                Avec qui Naruto a-t-il appris le Fûton - Rasenshuriken ? <br>   
+                
+            </div>
+            
+        </div>
+        
+        <br>
+  
+        <div class="q5_proposition">
+            
+            <div class="q5_choix" id="notbon5" onclick="clicked_notbon5()">
+                
+                <div class="q5_r1"> Jiraya </div>
+                
+            </div>
+
+            &nbsp;&nbsp;&nbsp;
+
+            <div class="q5_choix" id="bon5" onclick="clicked_bon5()">
+                
+                <div class="q5_r2"> Yamato / Kakashi </div>
+                
+            </div>
+        
+        </div>
+
+        
+    </div>
+
+    <div class="responses">
+
+        <div class="compta">
+
+            Compte Rendu
+
+        </div>
+        
+        <br>
+
+        <div class="responses-texte">
+
+
+            <div class="response_final1">
+
+                Naruto était la bonne réponse - 1/5
+
+            </div>
+
+            <div class="response_final2">
+
+                Minato était la bonne réponse - 2/5
+
+            </div>
+
+            <div class="response_final3">
+
+                Les ninjas de Kiri était la bonne réponse - 3/5
+
+            </div>
+
+            <div class="response_final4">
+
+                Itachi était la bonne réponse - 4/5
+
+            </div>
+
+            <div class="response_final5">
+
+                Yamato / Kakashi était la bonne réponse - 5/5
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <br><br><br><br>
+        
+        
+    
+    <footer>
+
+        <div class="footloz">
+
+            
+            <li><a href="https://www.instagram.com/blm_dev.web/?hl=fr">
+                
+                <img src="ig.png" width="40">
+                
+            </a></li>
+            
+            <li><a href="https://github.com/MLB-78">
+                
+                <img src="git.png" width="40">
+                
+            </a></li>
+            
+            <li><a href="https://www.linkedin.com/in/maxime-n-31938b206/">
+
+                <img src="linked.png" width="40">
+            
+             </a></li>
+        
+        </div>
+        
+    </footer>
+
+
+    <script src="naruto rizing.js"></script>
+</body>
+
+</html>
